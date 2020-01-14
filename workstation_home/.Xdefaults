@@ -1,0 +1,45 @@
+URxvt*termName: rxvt
+!!# borderless and no scrollbar
+URxvt*scrollBar_right: false
+URxvt*scrollBar: false
+URxvt*borderLess: false
+!!# teh transparency stuff
+URxvt*inheritPixmap: true
+URxvt*tintColor: white
+URxvt*shading: 0
+!!# geometry and font
+!!URxvt*geometry: 84×24
+URxvt*geometry: 118×30
+!!URxvt*font: xft:Terminus:pixelsize=14
+!!URxvt*font: xft:Terminus:size=10
+!!URxvt*font: xft:DejaVu Sans Mono:size=10
+URxvt*font: xft:inconsolata:antialias=true:size=12:style=medium
+!!URxvt.font: 9x15
+!!URxvt*boldfont: xft:Terminus:pixelsize=14
+!!# change default colors
+URxvt*background: #000000
+URxvt*foreground: #A8A8A8
+URxvt*color0: #000000
+URxvt*color1: #A80000
+URxvt*color2: #00A800
+URxvt*color3: #A85400
+URxvt*color4: #0000A8
+URxvt*color5: #A800A8
+URxvt*color6: #00A8A8
+URxvt*color7: #A8A8A8
+URxvt*color8: #545054
+URxvt*color9: #F85450
+URxvt*color10: #50FC50
+URxvt*color11: #F2FC50
+URxvt*color12: #5054F8
+URxvt*color13: #F854F8
+URxvt*color14: #50FCF8
+URxvt*color15: #F8FCF8
+
+URxvt.perl-ext-common: default,matcher,font-size
+URxvt.urlLauncher: /usr/bin/firefox
+URxvt.matcher.button: 1
+URxvt.matcher.pattern.1: \\bwww\\.[\\w-]\\.[\\w./?&@#-]*[\\w/-]
+URxvt.imLocale: en_US.ISO-8859-15
+URxvt.keysym.C-Up:     font-size:increase
+URxvt.keysym.C-Down:   font-size:decrease
