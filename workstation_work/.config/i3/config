@@ -47,11 +47,12 @@ bindsym $mod+l exec --no-startup-id xscreensaver-command -lock
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
-
 # float max-size
 floating_minimum_size 500 x 300
 floating_maximum_size 2000 x 1500
 for_window [class="(?i)firefox" instance="^(?!Navigator$)"] floating enable
+for_window [class="KeePassX" ] floating enable
+
 
 # start a terminal
 bindsym $mod+Return exec urxvt
