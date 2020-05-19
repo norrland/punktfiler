@@ -52,6 +52,7 @@ floating_minimum_size 500 x 300
 floating_maximum_size 2000 x 1500
 for_window [class="(?i)firefox" instance="^(?!Navigator$)"] floating enable
 for_window [class="KeePassX" ] floating enable
+for_window [class="Orage" ] floating enable
 
 
 # start a terminal
