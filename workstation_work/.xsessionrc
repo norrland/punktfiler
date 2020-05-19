@@ -1,1 +1,8 @@
 setxkbmap svorak
+redshift-gtk &
+blueman-applet &
+~/.fehbg
+
+# disable system bell
+xset b off
+#~/.screenlayout/kontor_2xdp.sh
