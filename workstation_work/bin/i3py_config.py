@@ -30,25 +30,13 @@ status.register("temp",
 # If you don't have a desktop notification demon yet, take a look at dunst:
 #   http://www.knopwob.org/dunst/
 status.register("battery",
-    format="{status}/{consumption:.2f}W {percentage:.2f}% [{percentage_design:.2f}%] {remaining:%E%hh:%Mm}",
+    format="{status}/{consumption:.2f}W {percentage:.2f}% {remaining:%E%hh:%Mm}",
     alert=True,
     alert_percentage=5,
     status={
         "DIS": "↓",
         "CHR": "↑",
         "FULL": "=",
-    },)
-
-# This would look like this:
-# Discharging 6h:51m
-status.register("battery",
-    format="{status} {remaining:%E%hh:%Mm}",
-    alert=True,
-    alert_percentage=5,
-    status={
-        "DIS":  "Discharging",
-        "CHR":  "Charging",
-        "FULL": "Bat full",
     },)
 
 # Displays whether a DHCP client is running
