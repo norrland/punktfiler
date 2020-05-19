@@ -79,8 +79,8 @@ bindsym $mod+d exec /usr/bin/rofi -show run
 # bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
 
 # change focus
-bindsym $mod+j focus up
-bindsym $mod+k focus down
+bindsym $mod+k focus up
+bindsym $mod+j focus down
 bindsym $mod+odiaeresis focus right
 bindsym $mod+aring focus left
 
@@ -91,8 +91,8 @@ bindsym $mod+Up focus up
 bindsym $mod+Right focus right
 
 # move focused window
-bindsym $mod+Shift+j move up
-bindsym $mod+Shift+k move down
+bindsym $mod+Shift+k move up
+bindsym $mod+Shift+j move down
 bindsym $mod+Shift+odiaeresis move right
 bindsym $mod+Shift+aring move left
 
