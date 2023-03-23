@@ -49,3 +49,5 @@
     defaultBranch = main
 [gpg]
     program = gpg2
+[includeIf "gitdir:~/koda/github.com/norrland/"]
+    path = .gitconfig-private
