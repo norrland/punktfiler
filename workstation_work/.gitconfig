@@ -46,7 +46,6 @@
     gpgsign = true
 
 [init]
-    templateDir = /home/andreas/git-skeleton/
     defaultBranch = main
 [gpg]
     program = gpg2
