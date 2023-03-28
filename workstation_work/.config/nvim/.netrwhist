@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =5
+let g:netrw_dirhist_5='/home/andreas/koda/jobb/test-kvm-flow'
+let g:netrw_dirhist_4='/home/andreas/koda/jobb/test-kvm-flow/.git'
+let g:netrw_dirhist_3='/home/andreas/koda/jobb/ansible-playbooks/glesys-prometheus'
+let g:netrw_dirhist_2='/home/andreas/koda/jobb/ansible-playbooks/vmware-backup/group_vars'
+let g:netrw_dirhist_1='/home/andreas/koda/jobb/core9-stuff'
+let g:netrw_dirhist_0='/home/andreas/koda/jobb'
+let g:netrw_dirhist_9='/home/andreas/koda/jobb/ansible_roles/keepalived/templates'
+let g:netrw_dirhist_8='/home/andreas/koda/jobb/ansible_roles/norrlands_rollen/config'
+let g:netrw_dirhist_7='/home/andreas/koda/jobb/ansible_roles/unattended-upgrades/tests'
+let g:netrw_dirhist_6='/home/andreas/koda/jobb/vcloud-py'
