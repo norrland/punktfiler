@@ -6,13 +6,18 @@ status = Status()
 # Tue 30 Jul 11:59:46 PM KW31
 #                          ^-- calendar week
 status.register("clock",
-    format="%F %H:%M:%S KW%V",
+    #format="%F %H:%M:%S KW%V",
+    format="%F %H:%M KW%V",
     on_rightclick = "orage",
     )
 
 # Shows the average load of the last minute and the last 5 minutes
 # (the default value for format is used)
 status.register("load")
+
+status.register("cpu_usage_graph", graph_style="braille-fill")
+status.register("cpu_freq",
+        format="{avgg} GHz")
 
 # Shows your CPU temperature, if you have a Intel CPU
 status.register("temp",
@@ -71,7 +76,12 @@ status.register("disk",
 #
 # Note: requires libpulseaudio from PyPI
 status.register("pulseaudio",
-    format="♪{volume}",)
+    format="♪{volume}",
+    on_rightclick = "exec pavucontrol",
+    on_leftclick = "switch_mute",
+    on_upscroll = "increase_volume",
+    on_downscroll = "decrease_volume",
+)
 
 # Shows mpd status
 # Format:
@@ -85,6 +95,9 @@ status.register("pulseaudio",
 #    },)
 status.register("spotify",
     format="{title} {status}",
+    on_downscroll="",
+    on_upscroll="",
+    log_level = 0,
     )
 
 status.run()
