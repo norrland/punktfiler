@@ -1,5 +1,5 @@
 setxkbmap svorak
-redshift-gtk &
+#redshift-gtk &
 blueman-applet &
 ~/.fehbg
 
